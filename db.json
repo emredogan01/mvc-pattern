@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "Mehmet",
+      "title": "React MVC Pattern(Mimari)",
+      "text": "MVC Mimari ile nasıl bileşenleri yöntirim??",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": 2,
+      "user": "Ali",
+      "title": "React MVVM Paterni",
+      "text": "Bu nedir???",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": "378a0574-a91e-417e-ae41-a301fe1234e0",
+      "date": "2023-09-11T19:13:21.364Z",
+      "title": "React123",
+      "text": "Bunu nasıl çözeriz???",
+      "user": "Ahmet"
+    },
+    {
+      "id": "ff867aec-1452-4ec5-bb37-75ccd6234fe4",
+      "date": "2023-09-11T19:59:57.523Z",
+      "title": "MVVM Nedir?",
+      "text": "Nası l oluyor\n",
+      "user": "Mehmet"
+    },
+    {
+      "id": "02db8f75-0321-4edb-af18-e5b0783acda6",
+      "date": "2023-09-11T20:00:15.908Z",
+      "title": "React ile proje ",
+      "text": "React ile proje  nasıl geliştirilir????",
+      "user": "Ali"
+    },
+    {
+      "id": "cdfcb6f3-c339-4d7b-926b-44193bbb2675",
+      "date": "2023-10-04T19:47:39.540Z",
+      "title": "qweqweqw",
+      "text": "eqweqweqweqwe",
+      "user": "qweqwewq"
+    },
+    {
+      "id": "4aceb58a-4b7c-4020-b49a-ce3d5387dddd",
+      "date": "2023-10-04T20:42:11.897Z",
+      "title": "birincisi",
+      "text": "birincsi",
+      "user": "Udemig"
+    },
+    {
+      "id": "d1ca789e-51ea-4979-99ad-eb4ddff5d4ff",
+      "date": "2023-10-04T20:42:27.169Z",
+      "title": "ikinicis",
+      "text": "ikinisici",
+      "user": "Udemig"
+    },
+    {
+      "id": "f5ce65e1-f84e-46cc-91d1-a570a1c7ded7",
+      "date": "2023-10-16T22:30:05.647Z",
+      "title": "denemeee",
+      "text": "deneme123",
+      "user": "deneme"
+    },
+    {
+      "id": "bfe34598-cac6-4958-8f5b-d95cd00a089a",
+      "date": "2023-10-16T22:44:44.013Z",
+      "title": "udemig",
+      "text": "test",
+      "user": "emre"
+    },
+    {
+      "id": "7d748cf1-39bf-40ac-89ac-d38c4553c58f",
+      "date": "2023-10-17T11:43:21.006Z",
+      "title": "deneme başlığı",
+      "text": "deneme text",
+      "user": "deneme123"
+    },
+    {
+      "id": "7b0bdcc0-2384-4a90-a9da-f557b16588ab",
+      "date": "2023-10-17T11:43:41.972Z",
+      "title": "deneme başlık 123",
+      "text": "deneme text 123",
+      "user": "deneme123"
+    },
+    {
+      "id": "8a4d28a5-65ba-47fb-a4b3-4805b49c317d",
+      "date": "2023-10-17T11:47:45.892Z",
+      "title": "text deneme",
+      "text": "denme paragraf yazısı",
+      "user": "text 123"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: gray;
+  color: white;
+}
+
+// header
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  a {
+    color: yellow;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+      text-shadow: 2px 2px 30px yellow;
+    }
+  }
+
+  .active {
+    display: none;
+  }
+}
+
+// posts list page
+
+.container {
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  .post {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.616);
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        color: yellow;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// ekleme sayfası
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 70vw;
+  height: 70vh;
+  min-height: 70vh;
+  background-color: black;
+  margin: 100px auto;
+  padding: 50px 20px;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+
+    input {
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+
+    textarea {
+      padding: 10px;
+      resize: vertical;
+      max-height: 200px;
+      min-height: 100px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  button {
+    background: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+    border: none;
+    outline: none;
+
+    &:hover {
+      scale: 0.99;
+    }
+  }
+}
+
+// popUp
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.4);
+  display: grid;
+  place-items: center;
+
+  .popup {
+    background-color: white;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+    border-radius: 10px;
+
+    .btn-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+
+      span {
+        color: rgb(165, 165, 8);
+      }
+    }
+
+    button {
+      background: red;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        scale: 0.98;
+      }
+    }
+  }
+}
